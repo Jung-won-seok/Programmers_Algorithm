@@ -21,11 +21,14 @@ public class OrderedLinkedList implements List {
 
     public int removeFirst() {
         //가장 작은 값 제거
+        int min=0;
+        return min;
     }
 
-    public boolean isEmpty() {
+    public boolean  isEmpty() {
         //빈 리스트인지 확인
-        return size==0;
+        int size=0;
+        return (size==0);
     }
 
     public static void main(String[] args) {
